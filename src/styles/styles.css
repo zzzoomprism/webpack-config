@@ -1,0 +1,26 @@
+@import "index.css";
+@import "~normalize.css";
+
+body{
+    font-family: 'Big Shoulders', sans-serif;
+    
+}
+
+#root{
+    padding: 20px 150px;
+    background-color: #333;
+    color: white;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+#joel-image{
+    margin-top: 50px;
+}
+
+.description{
+    color: rgb(0, 255, 242);
+}

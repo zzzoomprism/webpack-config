@@ -1,0 +1,6 @@
+{
+    "jumpToAliasFile.alias": {
+        "@models": "f:\\programming\\webpack-lesson\\src\\models",
+        "@assets": "f:\\programming\\webpack-lesson\\assets"
+    }
+}

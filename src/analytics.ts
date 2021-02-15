@@ -1,9 +1,9 @@
-function createAnalytics()
+export default function createAnalytics(): object
 {
     let counter = 0;
     let isDestroyed = false;
 
-    const listener = () => counter++;
+    const listener = (): number => counter++;
 
     document.addEventListener( 'click', listener );
 
@@ -21,4 +21,4 @@ function createAnalytics()
     }
 }
 
-window.analytics = createAnalytics();
+window['analytics'] = createAnalytics();
